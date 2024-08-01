@@ -11,14 +11,16 @@ Mudanças estruturais no código:
  - Isolar as dependencias das funcionalidades 
  - Isolar os bancos de dados
  - Duplicidade de dados no banco dados para garantir o isolamento
- 
+
+## Nestjs 
 Nestjs Traz opinião na forma que você cria sua apliação, ele define uma estrutura previa.
 Beneficios: 
-- Minimiza as escolhas na decisão de libs, usando as padrões do Nestjs. Ela é otima para times que precisam de velocidade e produtividade.
+- Minimiza as escolhas na decisão de libs, usando as padrões do Nestjs. 
+- É otimo para times que precisam de velocidade e produtividade.
 - Aplica os principios do SOLID
-- Possue Decoretors
+- Possui Decoretors
 
-## Conceitos do NestJs
+### Conceitos do NestJs
 Decoretor: Acopla uma funcionalidade em um método
 Inversao de Dependencia: As dependencias de uma classe são recebidas pelo constructor
 Injeção de Dependencia: Resolve todas as dependencias de uma classe de forma automática
