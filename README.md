@@ -44,6 +44,8 @@ In Memory Database: Fazer um stub que simula uma persistencia local para consegu
 
 Mappers -> Classes que transformam dados. Muito utilizado em arquitetura de camadas que possuem entidades repetidas entre si.
 
+Factory -> Função que abstrai a criação de varios objetos, retornando ele pronto para ser utilizado
+
 ## Ordem de Desenvolvimento
 - Pensar no Design System
 - Criar as Entidades do código
