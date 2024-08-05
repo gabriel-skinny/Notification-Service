@@ -1,4 +1,4 @@
-import { makeNotification } from "test/factories/notification-factory";
+import { makeNotification } from "../../../test/factories/notification-factory";
 import { Content } from "../entities/content";
 import { Notification } from "../entities/Notification";
 import InMemoryNotificationsRepository from "../repositories/in-memory-repository";

@@ -53,6 +53,7 @@ Factory -> Função que abstrai a criação de varios objetos, retornando ele pr
 - Testar as Entidades e os Use-Cases
 - Criar os Repositories
 - Implementar a infraEstrutura(Banco de Dados, Integrações)
+- Criar os controllers
 
 Artigos Recomendados:
 - Pattern In Memory Database - Martin Fowler( https://www.bing.com/search?pglt=513&q=in+memory+data+base+martin+fowler&cvid=94b4ae1559494724832d707c0c11b03d&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhA0gEINDQ5MmowajGoAgCwAgA&FORM=ANNTA1&PC=SMTS )
