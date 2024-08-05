@@ -1,10 +1,16 @@
 # Notification-Service
 
-Micro-serviço desenvolvido durante o curso Ignite-Lab4.0
+Micro-serviço desenvolvido durante o curso Ignite-Lab4.0 da RocketSeat com as melhores praticas de desenvolvimento e as ultimas tecnologias do mercado
 
 ## Tecnologias
 
 Nestjs -> Prisma -> Sqlite
+
+## Conceitos usados no desenvolvimento
+
+- TDD
+- DDD (Domain-Driven-Design)
+- SOLID
 
 ## Funcionalidades
 
@@ -15,23 +21,24 @@ Nestjs -> Prisma -> Sqlite
 
 # Estudo
 
-## Arquiteturas de Deploy:
+### Arquiteturas de Deploy:
 
 Monolito: Hospedagem de uma code base com todos as funcionalidades
+
 Micro-Servico: Fragmentação de aplicações em funcionalidades especificas
 
 Maior problema do Micro-Serviço: A sua comunição interna
 
-Mudanças estruturais no código em micro-serviços:
+Mudanças estruturais no código em uma arquitetura de micro-serviços:
 
 - Modo de intercomunicação entre os micro-serviços
 - Isolar as dependencias das funcionalidades
 - Isolar os bancos de dados
 - Duplicidade de dados no banco dados para garantir o isolamento
 
-## Nestjs
+### Nestjs
 
-Nestjs Traz opinião na forma que você cria sua apliação, ele define uma estrutura previa.
+Framework para nodejs que, diferentemente dos mais famosos como express e Hapi, traz opinião na forma que você cria sua apliação, ele define uma estrutura previa que deve ser seguida.
 
 Beneficios:
 
@@ -46,13 +53,13 @@ Decoretor pattern: Acopla uma funcionalidade em um método
 Inversao de Dependencia: As dependencias de uma classe são recebidas pelo constructor
 Injeção de Dependencia: Resolve todas as dependencias de uma classe de forma automática
 
-## Principios de Design System
+### Principios de Design System
 
 - Pensar como fariamos nossa aplicação sem banco de dados, pelas entidades
 - O Banco de dados não deve interferir em nenhuma regra de negocio, ele deve servir somente para persistir dados
 - Pensar nos testes ao desenvolver as entidades
 
-## Conteitos de Design
+### Conteitos de Design
 
 - Value-Object: Uma classe que representa um parametro de uma entitidade, abstraindo sua lógica da entitdade principal
 - Single Responsability: As classes precisam ter apenas uma responsabilidade (Use-Cases)
@@ -61,7 +68,7 @@ Injeção de Dependencia: Resolve todas as dependencias de uma classe de forma a
 - Mappers: Classes que transformam dados. Muito utilizado em arquitetura de camadas que possuem entidades repetidas entre si.
 - Factory: Função que abstrai a criação de varios objetos, retornando ele pronto para ser utilizado
 
-## Ordem de Desenvolvimento
+### Ordem de Desenvolvimento
 
 - Pensar no Design System
 - Criar as Entidades do código
@@ -71,7 +78,7 @@ Injeção de Dependencia: Resolve todas as dependencias de uma classe de forma a
 - Implementar a infraEstrutura(Banco de Dados, Integrações)
 - Criar os controllers
 
-Artigos Recomendados:
+### Artigos Recomendados:
 
 - Pattern In Memory Database - Martin Fowler( https://www.bing.com/search?pglt=513&q=in+memory+data+base+martin+fowler&cvid=94b4ae1559494724832d707c0c11b03d&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABhA0gEINDQ5MmowajGoAgCwAgA&FORM=ANNTA1&PC=SMTS )
 - Guia de Micro-Serviços Martin Fowler (https://martinfowler.com/microservices/)
